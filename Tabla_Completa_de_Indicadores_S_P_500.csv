@@ -1,0 +1,23 @@
+Categoría,Indicador,Configuración Recomendada,Uso Principal,Gráfico Aplicable
+Tendencia,EMA (Exponential Moving Average),50 y 200 períodos,Identificar tendencia alcista/bajista,"1D, 4H, 1H"
+Tendencia,SuperTrend,"(10,3)",Confirmar tendencia y cambios de dirección,"1D, 4H, 1H, 15m"
+Tendencia,Bollinger Bands,"(20,2)",Medir volatilidad y detectar sobrecompra/sobreventa,"4H, 1H, 15m, 5m"
+Momentum,RSI (Relative Strength Index),14 períodos,Identificar sobrecompra/sobreventa y divergencias,"1D, 4H, 1H, 15m"
+Momentum,MACD (Moving Average Convergence/Divergence),"(12,26,9)",Confirmar cambios de tendencia y momentum,"1D, 4H, 1H, 15m"
+Momentum,Estocástico (K/D),"(14,3,3)",Identificar reversiones rápidas,"4H, 1H, 15m, 5m"
+Momentum,ROC (Rate of Change),(14),Medir fuerza de movimiento,"1D, 4H, 1H"
+Volatilidad,ATR (Average True Range),(14),Medir volatilidad y ajustar stop-loss dinámicos,"1D, 4H, 1H"
+Volatilidad,Choppiness Index,(14),Detectar consolidaciones o mercado en tendencia,"1D, 4H, 1H"
+Volumen y Flujo de Órdenes,OBV (On Balance Volume),-,Confirmar acumulación/distribución,"1D, 4H, 1H"
+Volumen y Flujo de Órdenes,VPVR (Volumen por Rango de Precio),100 barras,Identificar zonas de alta liquidez,"1D, 4H, 1H"
+Volumen y Flujo de Órdenes,CVD (Cumulative Volume Delta),-,Medir diferencia entre compras y ventas reales,"1H, 15m, 5m"
+Volumen y Flujo de Órdenes,Delta Volume,"5 min, 10 min",Detectar cambios abruptos en órdenes de mercado,"1H, 15m, 5m"
+Estructura de Mercado,Order Blocks (Bullish/Bearish),5 períodos,Identificar zonas de oferta y demanda institucional,"1D, 4H, 1H, 15m"
+Estructura de Mercado,Market Structure (BOS/CHoCH),-,Confirmar rupturas de estructura de mercado,"1D, 4H, 1H, 15m"
+Confirmación de Liquidez,VWAP (Volumen Ponderado por Precio),1 Desviación Estándar,Identificar niveles de precio justo,"1H, 15m, 5m"
+Confirmación de Liquidez,Heatmap de Liquidez (Libro de Órdenes),-,Detectar zonas de acumulación de órdenes grandes,"1H, 15m, 5m"
+Confirmación de Liquidez,Footprint Chart,5 min,Confirmar absorción/rechazo en niveles clave,"1H, 15m, 5m"
+Detección de Patrones,Divergencias en RSI/MACD,Script automático,Identificar cambios de tendencia antes de que ocurran,"1D, 4H, 1H, 15m"
+Macro y Correlaciones,DXY (Índice del Dólar),-,Relación inversa con S&P 500,1D
+Macro y Correlaciones,US10Y (Rendimiento del Bono a 10 Años),-,Impacto en la liquidez y riesgo,1D
+Macro y Correlaciones,WTI (Crudo),-,Relación con inflación y políticas de la FED,1D
